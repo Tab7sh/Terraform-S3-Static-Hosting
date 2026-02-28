@@ -31,26 +31,21 @@ Before deploying this infrastructure, ensure you have the following installed an
 ### 💻 HOW TO DEPLOY
 
 **1. Clone the repository**
-```bash
 git clone [https://github.com/YOUR-USERNAME/Terraform-S3-Static-Hosting.git](https://github.com/YOUR-USERNAME/Terraform-S3-Static-Hosting.git)
 cd Terraform-S3-Static-Hosting
 2. Initialize Terraform
 Downloads the required AWS provider plugins.
 
-Bash
+
 terraform init
 3. Preview the Infrastructure
 See exactly what resources Terraform will create before making any changes.
-
-Bash
 terraform plan
 4. Deploy the Infrastructure
 Build the infrastructure and upload the website. Type yes when prompted.
 
-Bash
+
 terraform apply
 5. Clean Up (Optional)
 To avoid unwanted AWS charges, tear down the infrastructure when you are done testing.
-
-Bash
 terraform destroy
